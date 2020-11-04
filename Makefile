@@ -1,5 +1,5 @@
 all: all_src all_base64 all_examples
-enable_b64=OFF
+
 
 all_src:
 	$(MAKE) -C src
