@@ -21,8 +21,8 @@ namespace base64
 	{
 		base64_encodestate _state;
 		int _buffersize;
-
-		encoder(int buffersize_in = BUFSIZ)
+		
+		encoder(int buffersize_in = 16777216)
 		: _buffersize(buffersize_in)
 		{}
 
